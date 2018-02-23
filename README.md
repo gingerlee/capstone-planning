@@ -70,17 +70,17 @@ _A list of the absolute minimum features the project requires to meet_
 * React Native Styling - probably Bootstrap
 
 ## UX/UI Layout
-![Layout Image](./assets/images/UI-layout.jpg)
+![Layout Image](./assets/images/UI-layout.JPEG)
 
 ## Component Tree
-![Component Tree Image](./assets/images/component-tree.jpg)
+![Component Tree Image](./assets/images/component-tree.JPEG)
 
 ## Building Process
 
 1. Break the UI into a Component Hierarchy
   * Add the visual representation of layout/appearance and a component tree diagram)
 2. Build A Static Version in React
-  * Link to static site repo here: [Static Squats App](http://github.com)
+  * Link to static site repo here: [Static Squats App](https://github.com/gingerlee/squats-app)
 3. Identify The Minimal (but complete) Representation Of UI State
   * Add a list of state slices application requires and how they will be structured to planning repo before moving to the next step.
 4. Lifting State: Identify Where Your State Should Live
