@@ -1,10 +1,10 @@
-# Squats App
-### 💪 React Capstone Project, Epicodus
+# Squats App Planning
+### 💪 A Team Workout App Built in React
 
-**Ginger Lee Kretschmer** -- _February 23 2018_
+##### by Ginger Lee Kretschmer -- _February 23 2018_
 
 
-## Project Description and Goal
+## Project Description
 
 This a socially-minded team workout application that allows a group of users (a team) to join a 21-day workout challenge. The challenge is composed of a curated list of free youTube videos, one for each day. After the workout is complete the user will add their name to the list of teammates who have completed the day's workout. Users will see all teammates who have completed the day’s workout.
 
@@ -12,7 +12,9 @@ The goal of this app is to leverage free workout content to a group of intereste
 
 **Backstory**: The user in mind is a new mom who does not have much time to leave the house, who wants to get back in shape, and who also is on a budget. This is the very situation I was in last summer, and found myself using free youtube workout videos to get in short and quick home workouts, but without paying or being in a studio, it was hard to keep fully motivated and accountable. That experience and slight challenge to stay committed to the workouts gave me the idea to build a team workout app that uses the social aspect of a team to keep each other motivated. I am excited to build this because it encourages people to be active and healthy, and also builds community -- and it's fun!
 
-## Minimum Viable Product Features
+## Project Proposal
+
+### Minimum Viable Product Features
 _A list of the absolute minimum features the project requires to meet_
 
 #### HomePage:
@@ -35,19 +37,18 @@ _A list of the absolute minimum features the project requires to meet_
 
 * **View team leaderboard:** User will be able to see which teammates, including themselves, have completed the workout video of the day.
 
-
-
-## Tools, frameworks, libraries, APIs for MVP
+### Tools, frameworks, libraries, APIs for MVP
 * React
 * Redux
-* Jest - For unit testing
-* React Youtube NPM package
-* YouTube Player API
+* Webpack
+* JSX
+* Jest
+* React Youtube NPM
 * Firebase
-* CSS - Styling and Animations
-* Material UI/React Materialize
+* CSS
 
-**If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.**
+
+#### **If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.**
 
 * **User Login** - Allow user to login to application using a join challenge button. Perhaps with Auth0. This will allow for multiple users.
 
@@ -62,7 +63,7 @@ _A list of the absolute minimum features the project requires to meet_
 * **Create Challenge Badges** for final workout/challenge completion.
 * **Create Multiple Challenges** Create other challenges user can join!
 
-What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+#### What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 * React Native
 * React Native YouTube feature
 * Auth0
@@ -74,7 +75,7 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 ## Component Tree
 ![Component Tree Image](./assets/images/component-tree.jpg)
 
-## Process
+## Building Process
 
 1. Break the UI into a Component Hierarchy
   * Add the visual representation of layout/appearance and a component tree diagram)
@@ -82,6 +83,6 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
   * Link to static site repo here: [Static Squats App](http://github.com)
 3. Identify The Minimal (but complete) Representation Of UI State
   * Add a list of state slices application requires and how they will be structured to planning repo before moving to the next step.
-4. Identify Where Your State Should Live
+4. Lifting State: Identify Where Your State Should Live
   * Before advancing identify where your state will be lifted in your planning repo. You could do this in a list, by adding indicators to your component diagram, or any other format. Then, add that state to your static project.
 5. Add Inverse Data Flow
