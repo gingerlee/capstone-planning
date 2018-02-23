@@ -73,3 +73,15 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 
 ## Component Tree
 ![Component Tree Image](./assets/images/component-tree.jpg)
+
+## Process
+
+1. Break the UI into a Component Hierarchy
+  * Add the visual representation of layout/appearance and a component tree diagram)
+2. Build A Static Version in React
+  * Link to static site repo here: [Static Squats App](http://github.com)
+3. Identify The Minimal (but complete) Representation Of UI State
+  * Add a list of state slices application requires and how they will be structured to planning repo before moving to the next step.
+4. Identify Where Your State Should Live
+  * Before advancing identify where your state will be lifted in your planning repo. You could do this in a list, by adding indicators to your component diagram, or any other format. Then, add that state to your static project.
+5. Add Inverse Data Flow
