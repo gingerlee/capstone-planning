@@ -16,7 +16,7 @@ The goal of this app is to leverage free workout content to a group of intereste
 _A list of the absolute minimum features the project requires to meet_
 
 #### HomePage:
-* **See User Name logged in:** Users will be able to see their name logged in at the top of the screen at all times. Logging in and out will be additional features after MVP.
+* **See User Name logged in:** User will be able to see their name logged in at the top of the screen at all times. This initially will be hardcoded. Logging in and out will be additional features after MVP.
 
 * **See Challenge Details:** Users will be able to view details of challenge.
 
@@ -24,23 +24,23 @@ _A list of the absolute minimum features the project requires to meet_
 
 * **See Team List:** Users will be able to view all team members signed up for the challenge.
 
-* **Click into any video:** Users will be able to click any video detail and be taken to video detail page (see below).
+* **Click into any workout:** Users will be able to click any workout detail and be taken to a detail page (see below).
 
-#### Video Detail Page:
-* **Play video:** Users will be able to view and play the video of the day within the application in an iframe (iframe controls will allow user to play, pause, volume). Video will be stored in Firebase and will use a YouTube API.
-
+#### Workout Detail Page:
 * **View workout details:** Users will be able to view workout details, e.g. equipment, duration, intensity level, muscle group focus, etc. (these are hardcoded and stored in Firebase in the video object).
 
-* **Mark workout as completed:** Users will be able to mark the workout completed. This action will add user name to the team leaderboard which shows who in the team has marked that workout completed
+* **Play video:** Users will be able to view and play the video of the day within the application in an iframe (iframe controls will allow user to play, pause, volume). Video will be stored in Firebase and will use a YouTube API.
+
+* **Mark workout as completed:** Users will be able to mark the workout completed. This action will add user name to the team leaderboard which shows who in the team has marked that workout completed.
 
 * **View team leaderboard:** User will be able to see which teammates, including themselves, have completed the workout video of the day.
 
 
 
 ## Tools, frameworks, libraries, APIs for MVP
-* React (I want to do this in React Native, but will make that a refractor for Demo Day)
+* React
 * Redux
-* Jest (for unit testing)
+* Jest - For unit testing
 * React Youtube NPM package
 * YouTube Player API
 * Firebase
@@ -69,3 +69,7 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 * React Native Styling - probably Bootstrap
 
 ## UX/UI Layout
+![Layout Image](./assets/images/UI-layout.jpg)
+
+## Component Tree
+![Component Tree Image](./assets/images/component-tree.jpg)
