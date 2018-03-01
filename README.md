@@ -73,10 +73,10 @@ _A list of the absolute minimum features the project requires to meet_
 * React Native Styling - probably Bootstrap
 
 ## UX/UI Layout
-![Layout Image](./assets/images/UI-layout.JPEG)
+![Layout Image](./img/UI-layout.JPEG)
 
 ## Component Tree
-![Component Tree Image](./assets/images/component-tree.JPEG)
+![Component Tree Image](./img/component-tree.JPEG)
 
 ## Building Process
 
