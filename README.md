@@ -73,7 +73,15 @@ _A list of the absolute minimum features the project requires to meet_
 * React Native Styling - probably Bootstrap
 
 ## UX/UI Layout
-![Layout Image](./img/UI-layout.JPEG)
+
+#### Welcome Screen
+![Welcome Page Layout Image](./img/squats-app-UI-welcome.jpg)
+
+#### Challenge Home Screen
+![Challenge Home Page Layout Image](./img/squats-app-UI-challenge-home.jpg)
+
+#### Workout Detail Screen
+![Workout Detail Page Layout Image](./img/squats-app-UI-workout-detail.jpg)
 
 ## Component Tree
 ![Component Tree Image](./img/component-tree.JPEG)
