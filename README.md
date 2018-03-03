@@ -1,7 +1,7 @@
 # Squats App Planning
 ### 💪 A Team Workout App Built in React
 
-##### by Ginger Lee Kretschmer -- _February 23 2018_
+##### by Ginger Lee Kretschmer -- _March 2nd 2018_
 
 
 ## Project Description
@@ -82,6 +82,17 @@ _A list of the absolute minimum features the project requires to meet_
 
 #### Workout Detail Screen
 ![Workout Detail Page Layout Image](./img/squats-app-UI-workout-detail.jpg)
+
+## UX/UI Layout With Component Annotations
+
+#### Welcome Screen With Component Annotations
+![Welcome Page Layout Image](./img/squats-app-UI-welcome-annotated.jpg)
+
+#### Challenge Home Screen With Component Annotations
+![Challenge Home Page Layout Image](./img/squats-app-UI-challenge-home-annotated.jpg)
+
+#### Workout Detail Screen With Component Annotations
+![Workout Detail Page Layout Image](./img/squats-app-UI-workout-detail-annotated.jpg)
 
 ## Component Tree
 ![Component Tree Image](./img/component-tree.JPEG)
