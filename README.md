@@ -95,7 +95,7 @@ _A list of the absolute minimum features the project requires to meet_
 ![Workout Detail Page Layout Image](./img/squats-app-UI-workout-detail-annotated.jpg)
 
 ## Component Tree
-![Component Tree Image](./img/component-tree.JPEG)
+![Component Tree Image](./img/component-tree.png)
 
 ## Building Process
 
